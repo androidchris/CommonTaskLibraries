@@ -31,3 +31,36 @@ for i in numbers:
 
 print(sum)
 
+# For Loop w/ Step, Step is 5:
+for i in range(0, 100, 5):
+    print("i is {} ".format(i))
+
+# Continue Example:
+# Create a list of shopping items:
+shopping_list = ["milk", "pasta", "eggs", "spam", "bread", "rice"]
+
+for item in shopping_list:
+    # If the item is spam then continue loop and don't buy it below:
+    if item == 'spam':
+        continue
+
+    # Display item to buy:
+    print("Buy " + item)
+
+
+# Break Example:
+# Create a list of meal items:
+meals = {"egg", "bacon", "spam", "sausages"}
+
+# Keep track of nasty food items, initialize as empty string:
+nasty_food_item = ''
+
+# Loop through the meals and break if item is spam:
+for meal in meals:
+    if meal == 'spam':
+        nasty_food_item = meal
+        break
+
+# If nasty_food_item is set, then display it:
+if nasty_food_item:
+    print("Why must I have a nasty food item!")
