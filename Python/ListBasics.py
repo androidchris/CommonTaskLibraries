@@ -1,6 +1,9 @@
 # Create a list of numbers:
 numbers = [1,2,3,4,5]
 
+# Other way to create a list:
+ # list2 = list()
+
 # Display the list of numbers:
 print(numbers)
 
