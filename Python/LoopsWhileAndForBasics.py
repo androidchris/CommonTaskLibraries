@@ -64,3 +64,22 @@ for meal in meals:
 # If nasty_food_item is set, then display it:
 if nasty_food_item:
     print("Why must I have a nasty food item!")
+
+# Iterator Example:
+myString = "12345676890"
+
+# Create Iterator variable:
+my_interator = iter(myString)
+
+# Display each number in the String:
+print(next(my_interator))
+print(next(my_interator))
+print(next(my_interator))
+print(next(my_interator))
+print(next(my_interator))
+print(next(my_interator))
+print(next(my_interator))
+print(next(my_interator))
+print(next(my_interator))
+print(next(my_interator))
+print(next(my_interator))
