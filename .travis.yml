@@ -3,6 +3,7 @@ python:
   - "3.5"
 cache: pip
 install:
+  - pip --use-mirrors in bootstrap script
   - pip install -r requirements.txt
 script:
   - pytest
