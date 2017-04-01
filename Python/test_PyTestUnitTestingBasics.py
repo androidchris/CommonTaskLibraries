@@ -5,12 +5,13 @@
 def func(x):
     return x + 1
 
+# Tests:
 def test_answer():
-    # This test should pass:
+    # 3 + 1 should equal 4.
     assert func(3) == 4
 
-    # 7 + 1 is 8 so this test should fail.
-    assert func(7) == 7
+    # 7 + 1 should equal 8.
+    assert func(7) == 8
 
 
 
