@@ -2,7 +2,7 @@ language: python
 python:
   - "3.5"
 # command to install dependencies
-script: python Python/test_all_of_the_units.py
+script: python Python/test_PyTestUnitTestingBasics.py
 branches:
   only:
     - master
