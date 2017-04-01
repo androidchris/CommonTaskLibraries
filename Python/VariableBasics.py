@@ -1,3 +1,11 @@
+# Variable Basics
+
+# Comments: We can use the # but also can use the triple quote:
+""" 
+This is a multi line
+comment 
+"""
+
 # Create Variables:
 a = 12
 b = 3
