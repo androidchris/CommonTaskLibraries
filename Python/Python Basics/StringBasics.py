@@ -58,3 +58,16 @@ print("Pi is approximately {0:1.50f}".format(22/7))
 # Notice we have four months and 3 replacements, we use month 2 twice.
 print("January: {2}, February: {0}, March: {2}, June: {1}".format(28, 30, 31))
 
+# Example of a raw String:
+# String displayed w/ the esc chars:
+a_string = "This is\na string split\t\tand tabbed"
+print("String split and tabbed:")
+print(a_string)
+print()
+
+# String displayed as raw String without esc chars:
+raw_string = r"This is\na string split\t\tand tabbed"
+print("The raw String using the r\"\"")
+print(raw_string)
+print()
+

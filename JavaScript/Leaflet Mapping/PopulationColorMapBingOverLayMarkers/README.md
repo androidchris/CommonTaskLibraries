@@ -20,6 +20,9 @@ Download it and open in browser.
 
 Bing maps api used.
 
+leaflet-bing-layer
+https://github.com/gmaclennan/leaflet-bing-layer
+
 ## Tests
 
 No tests yet.
